@@ -381,73 +381,11 @@ img {
 }
 
   
-  /* ==== works ====*/
-  
-  .works__container {
-    display: flex;
-  
-    justify-content: space-around;
-  
-    row-gap: 2rem;
-  }
-  
-  .works__img {
-    position: relative;
-    overflow: hidden;
-    border-radius: 0.5rem;
-    margin: 0.5rem;
-    border-radius: 0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  }
-  
-  .works__data {
-    position: absolute;
-    bottom: -100%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgba(199, 165, 212, 0.66);
-    border-radius: 0.5rem;
-    transition: 0.3s;
-  }
-  
-  .works__link {
-    display: inline-flex;
-    font-size: 1.5;
-    background-color: var(--first-color-lighten);
-    color: var(--first-color);
-    padding: 0.25rem;
-    border-radius: 0.25rem;
-    margin-bottom: var(--mb-2);
-  }
-  
-  .works__title {
-    font-size: var(--h2-font-size);
-    color: var(--first-color-lighten);
-  }
-  
-  .works__img:hover .works__data {
-    bottom: 0;
-  }
-  
 /*============ CONTACT ==========*/
 .contact__container {
   row-gap: 3rem;
 }
 
-.contact__input {
-  width: 100%;
-  padding: 1rem;
-  outline: none;
-  border: none;
-  background-color: var(--first-color-light);
-  font-size: var(--normal-font-size);
-  margin-bottom: var(--mb-2);
-  border-radius: 0.5rem;
-}
 
 .contact ::placeholder {
   color: var(--first-color-dark);
