@@ -471,7 +471,7 @@ img {
   color: var(--first-color);
 }
 .footer__heart{
-  color: rgba(220,20,60, 0.8);
+  color: rgba(220,20,60, 0.7);
   animation: beat 2s infinite;
    
 }
@@ -480,7 +480,7 @@ img {
     tranform: scale(1);
   }
   50% {
-    transform: scale(0.7);
+    transform: scale(0.6);
   }
 }
 
