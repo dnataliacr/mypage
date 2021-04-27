@@ -110,13 +110,11 @@ img {
   color: var(--first-color);
   margin-bottom: var(--mb-3);
   text-align: center;
-  
 }
-.title__transition{
+.title__transition {
   position: relative;
   display: inline-flex;
   overflow: hidden;
-
 }
 .title__transition::after,
 .title__transition::before {
@@ -138,8 +136,8 @@ img {
   transform: translateX(100%);
 }
 .title__transition:hover::before,
-.title__transition:hover::after{
-    transform: translateX(0);
+.title__transition:hover::after {
+  transform: translateX(0);
 }
 .section-subtitle {
   display: block;
@@ -169,7 +167,6 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--first-color-lighten);
-
 }
 
 /*=== nav ===*/
@@ -332,32 +329,18 @@ img {
 .about__description {
   margin-bottom: var(--mb-4);
   text-align: center;
+  line-height: 2rem;
+  word-spacing: 0.3rem;
 }
 
-.about__information-title {
-  font-size: var(--h3-font-size);
+.about__information-smile {
   color: var(--first-color-dark);
-  margin-bottom: var(--mb-2);
+  font-size: 1.1rem;
 }
-
-.about__information-data {
-  display: flex;
-  align-items: center;
-  padding-left: 1.5rem;
-  margin-bottom: var(--mb-3);
-}
-
-.about__information-icon {
+.about__information-arrow {
   font-size: 1.5rem;
-  color: var(--first-color);
+  color: var(--first-color-dark);
   margin-right: var(--mb-4);
-}
-.about__information-subtitle {
-  display: block;
-  font-weight: var(--font-semi-bold);
-}
-.about__information-subtitle-small {
-  font-size: var(--small-font-size);
 }
 
 /* ===== Skills ====*/
@@ -409,12 +392,10 @@ img {
   color: var(--first-color-lighten);
 }
 
-  
 /*============ CONTACT ==========*/
 .contact__container {
   row-gap: 3rem;
 }
-
 
 .contact ::placeholder {
   color: var(--first-color-dark);
@@ -470,10 +451,9 @@ img {
   font-size: var(--smaller-font-size);
   color: var(--first-color);
 }
-.footer__heart{
-  color: rgba(220,20,60, 0.7);
+.footer__heart {
+  color: rgba(220, 20, 60, 0.7);
   animation: beat 2s infinite;
-   
 }
 @keyframes beat {
   0% {
