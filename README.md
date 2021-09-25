@@ -4,7 +4,7 @@
 
 old personal porfolio :shipit:
 
-## screenshhot
+## screenshot
 
 ![Screenshot](screenshot.png)
 
